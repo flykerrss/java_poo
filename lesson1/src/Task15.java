@@ -7,7 +7,7 @@ public class Task15
         // Scanner to obtain integers
         Scanner input=new Scanner(System.in);
 
-        // Initialize variable
+        // Variables
         int num1;	// first number
         int num2;	// second number
         int sum;	// sum of numbers
