@@ -22,11 +22,13 @@ public class Task18 {
         System.out.println("Enter credit limit:");
         int CreditLimit = scann.nextInt();
 
+        //calculate new customer's balance
         int NewBalance = BeginingBalance + Charges - Credits;
-        System.out.printf("Customer new balance: %d\n", NewBalance);
 
         //check if new balance exceeds the customer's credit limit
-        if (NewBalance > CreditLimit)
-            System.out.println("Credit limit exceed");
+        if (NewBalance *(-1) >= CreditLimit)
+            System.out.printf("New customer's balance is: %d. Credit limit exceed", NewBalance);
+        else
+            System.out.printf("New customer's balance is: %d.", NewBalance);
     }   //end main method
 }   //end class
