@@ -15,8 +15,10 @@ public class Task18 {
 
         System.out.println("Enter charges:");
         int Charges = scann.nextInt();
+
         System.out.println("Enter credits:");
         int Credits = scann.nextInt();
+
         System.out.println("Enter credit limit:");
         int CreditLimit = scann.nextInt();
 
