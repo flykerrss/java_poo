@@ -11,7 +11,7 @@ public class Task11 {
         NumofValues = scanner.nextInt();    //read value from user
         int Minimum = NumofValues;  //initialize variable for minimum value
 
-        //cicle to find the minimum
+        //cicle for to find the minimum
         for (int i = 0; i < NumofValues; i++) {
             int Value = scanner.nextInt();  //read values from user
             if (Value < Minimum)       //check if entered value is smaller
