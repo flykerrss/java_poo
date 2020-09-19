@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Task8 {
 
     //initialize variables
-    private static final double standardFee = 2.00; //minimum fee (for 3 hours)
+    private static final double standardFee = 2.00; //standard fee (for 3 hours)
     private static final double hourFee = 0.50; //fee for each number of hours greater than 3
     private static final double maximumFee = 10.00; //maximum fee for 24hours
     private static double totalCharges = 0.0f; //total charges for the day
@@ -34,7 +34,7 @@ public class Task8 {
             return Math.min(fee, maximumFee);   //return fee from current car
         } else {    //else instructions
             totalCharges += standardFee; //calculate total charges
-            return standardFee;      //return minimum fee
+            return standardFee;      //return standard fee
         }
     }   //end of main method
 }
