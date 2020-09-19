@@ -18,15 +18,15 @@ public class Task8 {
             System.out.print("Enter number of hours: ");    //prompt
             time = scanner.nextInt();
             if (time > 0)     //check if number of hours is greater than 0
-                System.out.printf("Charges: $%.2f%n", calculatecharges(time));  //output charges
+                System.out.printf("Charges: $%.2f%n", calculateCharges(time));  //output charges
 
-        } while (time != 0);    //end of do-while cicle
+        } while (time != 0);    //end of do-while cycle
         System.out.printf("Total charges for the day: $%.2f%n", totalCharges);  //output total charges
 
     }
 
     //calculate charges method
-    public static double calculatecharges(double time) {
+    public static double calculateCharges(double time) {
         if (time > 3.0) {   //check if number of hours is greater than 3
             double fee = standardFee + (hourFee * (time - 3));    //calculate fee
 
