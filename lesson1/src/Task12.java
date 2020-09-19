@@ -10,12 +10,12 @@ public class Task12 {
 
         for (int i = 0; i < 5; i++) {       //cycle for numbers reading
             System.out.print("Enter number: ");     //prompt
-            int num = scanner.nextInt();
+            int number = scanner.nextInt();
             boolean Founded = false;    //boolean variable for founded duplicates
             int j = 0;      //initialize j
 
             while (array[j] != 0) {     //while cycle for array and number comparison
-                if (array[j] == num) {      //check if number is duplicate
+                if (array[j] == number) {      //check if number is duplicate
                     Founded = true;     //set founded as true if it is duplicate
                 }
                 j++;        //increment j
@@ -27,7 +27,7 @@ public class Task12 {
                     if (array[k] != 0)
                         System.out.print(array[k] + " ");
             } else {        //in case of non duplicate
-                array[j] = num;     //add number in array
+                array[j] = number;     //add number in array
                 for (int k = 0; k < 5; k++)     //output array with new number
                     if (array[k] != 0)
                         System.out.print(array[k] + " ");
