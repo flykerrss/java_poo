@@ -15,6 +15,7 @@ public class Task32 {
             else positive++;    //else increment positive counter
         }
         //print results
+
         System.out.println("Negative: " + negative);
         System.out.println("Zero: " + zero);
         System.out.println("Positive: " + positive);
